@@ -29,7 +29,11 @@ This project delves into the rich history of Major League Baseball (MLB) using [
 
 ![](charts/img_04.png)
 
-#### 5. How does the highest player salary compare to the median player salary each year, and what is the trend of this ratio? 🖥️ Query: [salary.sql](sql/queries/01_salary.sql)
+#### 5. How has the rate of At-Bats per Home Run trended for both the American League and National League since 1950?
+
+![](charts/img_05.png)
+
+#### 6. How does the highest player salary compare to the median player salary each year, and what is the trend of this ratio? 🖥️ Query: [salary.sql](sql/queries/01_salary.sql)
 🔎 Sample Output
 
 |   year | team_name           | highest_salary_player   |   highest_salary |   median_salary |   ratio |
@@ -40,7 +44,7 @@ This project delves into the rich history of Major League Baseball (MLB) using [
 |   2015 | Los Angeles Dodgers | Clayton Kershaw         |         32571000 |         1880000 |    17.3 |
 |   2016 | Los Angeles Dodgers | Clayton Kershaw         |         33000000 |         1500000 |    22   |
 
-#### 6. Who won the AL and NL MVP awards each year, and what were their respective voting points and percentage shares?  🖥️ Query: [mvp.sql](sql/queries/02_mvp.sql)
+#### 7. Who won the AL and NL MVP awards each year, and what were their respective voting points and percentage shares?  🖥️ Query: [mvp.sql](sql/queries/02_mvp.sql)
 🔎 Sample Output
 
 |   year_id | al_mvp        |   al_mvp_points |   al_mvp_pct | nl_mvp           |   nl_mvp_points |   nl_mvp_pct |
@@ -51,7 +55,7 @@ This project delves into the rich history of Major League Baseball (MLB) using [
 |      2022 | Aaron Judge   |             410 |        0.976 | Paul Goldschmidt |             380 |        0.905 |
 |      2023 | Shohei Ohtani |             420 |        1     | Ronald Acuna     |             420 |        1     |
 
-#### 7. How do MLB teams rank since 2000 based on their combined success? 🖥️ Query: [team.sql](sql/queries/03_team.sql)
+#### 8. How do MLB teams rank since 2000 based on their combined success? 🖥️ Query: [team.sql](sql/queries/03_team.sql)
 🔎 Sample Output
 
 | name                  |   world_series_won |   regular_game_won |   total_home_attendance |   rank_by_games |   rank_by_attendance |
